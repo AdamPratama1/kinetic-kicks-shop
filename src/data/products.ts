@@ -1,0 +1,103 @@
+import { Product } from '@/types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Air Velocity Pro',
+    brand: 'STRIDE',
+    price: 189.99,
+    description: 'Experience unmatched speed and comfort with our flagship running shoe. Featuring advanced cushioning technology and a breathable mesh upper for maximum performance.',
+    colors: [
+      { name: 'Volt', hex: '#CCFF00', meshColor: '#CCFF00' },
+      { name: 'Midnight', hex: '#1a1a2e', meshColor: '#1a1a2e' },
+      { name: 'Arctic', hex: '#e8f4f8', meshColor: '#e8f4f8' },
+    ],
+    sizes: [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+    category: 'Running',
+    featured: true,
+    new: true,
+  },
+  {
+    id: '2',
+    name: 'Street Force X',
+    brand: 'STRIDE',
+    price: 159.99,
+    description: 'Dominate the streets with bold style and premium comfort. The Street Force X combines urban aesthetics with cutting-edge cushioning technology.',
+    colors: [
+      { name: 'Shadow', hex: '#2d2d2d', meshColor: '#2d2d2d' },
+      { name: 'Crimson', hex: '#dc143c', meshColor: '#dc143c' },
+      { name: 'Ocean', hex: '#0077b6', meshColor: '#0077b6' },
+    ],
+    sizes: [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13],
+    category: 'Lifestyle',
+    featured: true,
+    new: false,
+  },
+  {
+    id: '3',
+    name: 'Cloud Runner Elite',
+    brand: 'STRIDE',
+    price: 219.99,
+    description: 'Engineered for the elite athlete. Ultra-lightweight construction with responsive foam technology delivers explosive energy return.',
+    colors: [
+      { name: 'Pure White', hex: '#ffffff', meshColor: '#ffffff' },
+      { name: 'Neon Pink', hex: '#ff6b9d', meshColor: '#ff6b9d' },
+      { name: 'Electric Blue', hex: '#00d4ff', meshColor: '#00d4ff' },
+    ],
+    sizes: [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11],
+    category: 'Running',
+    featured: false,
+    new: true,
+  },
+  {
+    id: '4',
+    name: 'Urban Flex 3.0',
+    brand: 'STRIDE',
+    price: 139.99,
+    description: 'Everyday comfort meets street style. The Urban Flex 3.0 features a sock-like fit and versatile design for all-day wear.',
+    colors: [
+      { name: 'Graphite', hex: '#4a4a4a', meshColor: '#4a4a4a' },
+      { name: 'Sage', hex: '#9dc183', meshColor: '#9dc183' },
+      { name: 'Sand', hex: '#c2b280', meshColor: '#c2b280' },
+    ],
+    sizes: [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+    category: 'Lifestyle',
+    featured: true,
+    new: false,
+  },
+  {
+    id: '5',
+    name: 'Performance Max',
+    brand: 'STRIDE',
+    price: 249.99,
+    description: 'Our most advanced training shoe ever. Built for high-intensity workouts with superior stability and durability.',
+    colors: [
+      { name: 'Volt', hex: '#CCFF00', meshColor: '#CCFF00' },
+      { name: 'Black', hex: '#0a0a0a', meshColor: '#0a0a0a' },
+      { name: 'Fire', hex: '#ff4500', meshColor: '#ff4500' },
+    ],
+    sizes: [7, 8, 9, 10, 11, 12, 13],
+    category: 'Training',
+    featured: false,
+    new: true,
+  },
+  {
+    id: '6',
+    name: 'Retro Classic 90',
+    brand: 'STRIDE',
+    price: 129.99,
+    description: 'A timeless classic reimagined. Vintage aesthetics with modern comfort technology for the style-conscious.',
+    colors: [
+      { name: 'Cream', hex: '#fffdd0', meshColor: '#fffdd0' },
+      { name: 'Navy', hex: '#000080', meshColor: '#000080' },
+      { name: 'Burgundy', hex: '#800020', meshColor: '#800020' },
+    ],
+    sizes: [6, 7, 8, 9, 10, 11, 12],
+    category: 'Lifestyle',
+    featured: false,
+    new: false,
+  },
+];
+
+export const categories = ['All', 'Running', 'Lifestyle', 'Training'];
+export const brands = ['STRIDE'];
